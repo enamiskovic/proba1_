@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+#home {
+	background-image: url( "pozadina.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+#about {background-image: url( "pozadina2.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+ #contact {
+	 background-image: url( "pozadina3.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+ #recommendations {
+	 background-image: url( "pozadina4.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+#h1 {
+	font-family: "LaviossaMedium";
+	font-size: 20px; 
+	background-color: beige;
+	padding: 6px;
+   }
+
+#h2 {
+	font-family: "LaviossaMedium";
+    font-size: 100px;
+	margin-left: 325px;
+	margin-top: 175px;
+	
+} 
+@font-face {
+    font-family: LaviossaMedium;
+    src: url(  "LaviossaMedium.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#header ol.prvi {
+    font-family: LaviossaMedium;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+#header ol.prvi li {
+    display: inline;
+    background-color: darkgray;
+
+    margin-left: 3px;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+#link , #link2 , #link3, #link4 {color:black;}
+
+
+#lista .prva {
+	font-family: LaviossaMedium;
+    font-size: 20px;
+    color: black;
+
+    list-style-type: upper-alpha;
+}
+
+#lista .prva em  {
+	color: saddlebrown;
+    font: bold italic 26px/1em "LaviossaMedium";
+}
+
+#naslov {
+	font-family: LaviossaMedium;
+	font-size: 50px;}
+
+#contactlist, #tablica3, #tablica3 li {
+	font-family: 'Comfortaa', cursive;
+	font-size: 30px;
+	
+}
+
+#tablice { 
+	background-image: url("pozadina6.jpg");
+	background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+	font-family: LaviossaMedium;
+	margin-bottom: 100px;
+}
+
+.T td{
+    border: 4px outset;	
+}
+
+
+#tablice table { float:left;
+   border-collapse: collapse;
+}
+
+#tablice h1{font-size: 50px;
+border-bottom: 3px double;}
+
+.T1 th {
+    font-size: 20px;
+    font-weight: bold;
+    background-color:#769EAD;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    height: 40px;
+}
+
+
+#naslov1, #naslov2 {
+	font-weight: bold;
+    background-color: #769EAD;
+	  color: white;
+}
+
+#tablica2 { margin-left: 800px;
+margin-bottom: 900px;}
+
+#tablice tr:nth-child(2n) {
+    background-color: whitesmoke;
+}
+
+#tablica3 li {
+	font-size:30px;
+
+}
+
+#tablica3 ul {
+    width: 300px;
+	height: 250px;
+    background-color:wheat;
+    border-bottom: 1px solid white;
+	border: dashed;
+	 list-style: circle;
+    padding: 0;
+}
+
+#tablica3 li a {
+    color: lightslategrey;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#tablica3 li:first-child a:hover {
+    font-family: LaviossaMedium;
+    font-size: 30px;
+    text-shadow: 5px 5px 2px white;
+}
+
+#tablica3 li:nth-child(2) a:hover {
+    font-style:italic;
+}
+
+
+#tablica3 li:nth-child(3) a:hover {
+    background-color: darkgray;
+}
+	
+	#drugi {font-family: "LaviossaMedium";
+            font-size: 20px;
+		color: saddlebrown;
+}
+
+#prvi {font-family: LaviossaMedium;	
+font-size: 40px; 
+color: darkslategray;
+}
+
+.svi{margin-left: 600px;}
+
+#oblik table {
+    width: 20px;
+    height: 100px;
+	float:right;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+#crveni {
+    background-color: #BE3C3E;
+    border-radius: 300px 300px 300px 300px;
+}
+
+#zeleni {
+    background-color: #788D46;
+    border-radius: 300px 300px 300px 300px;
+}
+
+#smedji {
+    background-color: #B17D53;
+    border-radius: 300px 300px 300px 300px;
+}
+
+#crni {
+    background-color: #171D1D;
+    border-radius: 300px 300px 300px 300px;
+}

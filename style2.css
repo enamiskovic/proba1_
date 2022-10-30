@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+body {background-image: url( "pozadina2.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+@font-face {
+    font-family: LaviossaMedium;
+    src: url( "LaviossaMedium.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+	
+	p {font-family: "LaviossaMedium";
+font-size: 20px;
+		margin-left: 400px;
+}
+h1 {font-family: LaviossaMedium;
+	margin-left: 400px;
+font-size: 40px; }
+
+#oblik table {
+    width: 20px;
+    height: 100px;
+	float:right;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+#crveni {
+    background-color: #BE3C3E;
+    border-radius: 300px 300px 300px 300px;
+}
+
+#zeleni {
+    background-color: #788D46;
+    border-radius: 300px 300px 300px 300px;
+}
+
+#smedji {
+    background-color: #B17D53;
+    border-radius: 300px 300px 300px 300px;
+}
+
+#crni {
+    background-color: #171D1D;
+    border-radius: 300px 300px 300px 300px;
+}
